@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce María Méndez | Diseñadora & Editora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">DM</a>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#portfolio" class="nav-link">Portafolio</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hola, soy <span class="highlight">Dulce María</span>
+                </h1>
+                <p class="hero-subtitle">Diseñadora Gráfica & Editora de Video</p>
+                <p class="hero-description">
+                    Transformo ideas en diseños visuales impactantes y contenido audiovisual memorable. 
+                    Con creatividad, técnica y pasión por el detalle.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Ver Portafolio</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame">
+                    <div class="profile-placeholder">
+                        <span class="profile-icon">🎨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Soy diseñadora gráfica y editora de video con pasión por crear contenido visual 
+                        que cuenta historias y conecta con las audiencias. Mi enfoque combina creatividad 
+                        técnica con sensibilidad artística para entregar proyectos que superan expectativas.
+                    </p>
+                    <p class="about-paragraph">
+                        Mi experiencia abarca desde diseño para redes sociales hasta edición de video 
+                        profesional.
+                    </p>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Adobe Photoshop</span>
+                        <span class="skill-tag">Adobe Illustrator</span>
+                        <span class="skill-tag">Adobe Premiere Pro</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">Canva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-container">
+            <h2 class="section-title">Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Diseño Gráfico</h3>
+                    <p class="service-description">
+                        Diseño para redes sociales, 
+                        flyers, posters y material publicitario.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3 class="service-title">Edición de Video</h3>
+                    <p class="service-description">
+                        Videos promocionales, corporativos, tutoriales, reels, 
+                        stories.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Contenido Digital</h3>
+                    <p class="service-description">
+                        Diseño de e-books, banners web, 
+                        infografías y presentaciones visuales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-container">
+            <h2 class="section-title">Portafolio</h2>
+            
+            <!-- Filtros -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="design">Diseño Gráfico</button>
+                <button class="filter-btn" data-category="video">Edición de Video</button>
+                <button class="filter-btn" data-category="social">Redes Sociales</button>
+            </div>
+
+            <!-- Grid de proyectos -->
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Los proyectos se cargan dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">¿Listo para comenzar tu proyecto?</h3>
+                    <p class="contact-text">
+                        Estoy disponible para proyectos freelance y colaboraciones. 
+                        Hablemos sobre cómo puedo ayudarte a dar vida a tus ideas.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:dulcemariavisuals@gmail.com" class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">dulcemariavisuals@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/56975740012" target="_blank" class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <div class="contact-details">
+                                <span class="contact-label">WhatsApp</span>
+                                <span class="contact-value">+56 9 7574 0012</span>
+                            </div>
+                        </a>
+
+                        <a href="www.linkedin.com/in/dulce-maría-visuals-b61594376" target="_blank" class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">Dulce María Méndez</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-textarea" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                © 2025 Dulce María Méndez. Todos los derechos reservados.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dulce-maríaméndez-santiago-980708125" target="_blank" class="social-link">LinkedIn</a>
+                <a href="https://github.com/dulcemariaom1987" target="_blank" class="social-link">GitHub</a>
+                <a href="mailto:dulcemariaom33@gmail.com" class="social-link">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para proyectos -->
+    <div class="modal" id="projectModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Contenido dinámico -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
