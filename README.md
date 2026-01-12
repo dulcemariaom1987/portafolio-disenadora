@@ -31,10 +31,7 @@ El proyecto está construido utilizando:
 - **HTML5** – estructura del sitio
 - **CSS3** – estilos y diseño visual
 - **JavaScript** – interacciones básicas
-- **Canva** – diseño y maquetación visual
-- **Adobe Photoshop** – edición gráfica
-- **Adobe Illustrator** – diseño vectorial
-- **Adobe Premiere / After Effects** – piezas audiovisuales (según proyecto)
+
 
 ---
 
