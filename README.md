@@ -42,7 +42,7 @@ El proyecto está construido utilizando:
 
 portafolio-disenadora/
 ├── index.html
-├── scrip.js
+├── script.js
 ├── styles.css
 └── README.md
 
